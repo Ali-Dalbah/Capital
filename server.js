@@ -1,7 +1,7 @@
 const express = require("express");
 const server = express();
 server.all("/", (req, res)=> {
-  res.send("Shermit Bot is Running");
+  res.send("Capital Bot is Running");
 });
 function Server() {
   server.listen(3000, () => {
